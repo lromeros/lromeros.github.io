@@ -1,0 +1,99 @@
+/******************************************
+*************** GENERAL *******************
+*******************************************/
+div {
+    display: block;
+}
+section {
+	padding: 20px 0 40px 0;
+    background-color: gray;
+}
+
+.small-3 > img {
+	display: block;
+	margin: 15px auto;
+}
+
+
+
+
+
+/******************************************
+***************** HEADER ******************
+*******************************************/
+#home {
+	background-color: #999;
+	height: 620px;
+}
+
+@media screen and (max-width: 640px) {
+#home {
+	height: 85%;
+}
+
+#center-banner {
+	margin-top: 25%;
+}
+}
+
+#center-banner { 
+    margin-top: 120px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+/******************************************
+***************** ABOUT *******************
+*******************************************/
+.about {
+	background-color: rgba(255,191,0,.5);
+}
+
+#about {
+	background-color: #ffbf00;
+}
+
+
+
+
+
+
+/******************************************
+************** PORTFOLIO ******************
+*******************************************/
+.portfolio {
+	background-color: rgba(147,112,219,.5);
+}
+
+#portfolio {
+	background-color: #9370db; 
+}
+
+
+
+
+
+
+/******************************************
+**************** FOOTER *******************
+*******************************************/
+footer {
+	background-color: rgba(59,89,153, .5);
+    padding: 40px 0 10px 0;
+}
+
+#contact {
+	background-color: #3B5999;
+}
+
+footer > p {
+	margin-bottom: 0;
+	text-align: center;
+}
+
+
